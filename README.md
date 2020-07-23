@@ -1,8 +1,12 @@
 # Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver
 ## Introduction and Motivation of Sharing
-This is a project assigned on and modified from Stanford EE 236A Modern Optics. Optical industry vendors typically developed their internal solvers since multilayer optical films have been extensively used in optical technology [1]. In addition to build a Matlab solver by using impedance method to calculate the reflectivity/emissivity of a multilayer thin-film s/p-polarized light . 
+This is a project assigned on and modified from Stanford EE 236A Modern Optics. Optical industry vendors typically developed their internal solvers since multilayer optical films have been extensively used in optical technology [1]. In addition to build a Matlab solver by using impedance method to calculate the reflectivity/emissivity of a multilayer thin-film from s/p-polarized incident light over a range of spectrum, the project is aimed to provide following features:   
+   1.User-friendly data process: automatically process the csv file downloaded from refractiveinfo website or similar dat format(Repeated wavelength, seperated real and imaginary refractive indices in different rows or columns) into wavelength-complex number format. 
+   2. Flexiblility: interpolrate/extrapolate into designated wavelength grid size and range with non-duplicated wavelength
+   3. Mering: datasets from different sources with overlapping, non-overlapping wavelength range, various grid sizes can be merged into an uniform format
+   4. Scalability: 
 ## Discussion and Futher Plan
-This project is useful for 1-D conceptual and numerical validation of multi-layer design. Upon demand for smaller granularity of applcation and 
+This project is useful for 1-D conceptual and numerical validation of multi-layer design. Upon demand for smaller granularity of spatial performance, the method can be extended to 3-D with optimized matrix computation process. The command line user interface can be easily adjusted to  
 
 ## Reference
 [1] Shi, Yu, et al. "Optimization of multilayer optical films with a memetic algorithm and mixed integer programming." ACS Photonics 5.3 (2017): 684-691.   
