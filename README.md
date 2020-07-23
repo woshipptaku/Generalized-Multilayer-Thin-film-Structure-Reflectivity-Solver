@@ -1,14 +1,19 @@
 # Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver
 ## Introduction and Motivation of Sharing
-This is a project assigned on and modified from Stanford EE 236A Modern Optics. Optical industry vendors typically developed their internal solvers since multilayer optical films have been extensively used in optical technology [1]. In addition to build a Matlab solver by using impedance method to calculate the reflectivity/emissivity of a multilayer thin-film from s/p-polarized incident light over a range of spectrum, the project is aimed to provide following features:   
-   1.User-friendly data process: automatically process the csv file downloaded from refractiveinfo website or similar dat format(Repeated wavelength, seperated real and imaginary refractive indices in different rows or columns) into wavelength-complex number format. 
-   2. Flexiblility: interpolrate/extrapolate into designated wavelength grid size and range with non-duplicated wavelength
-   3. Mering: datasets from different sources with overlapping, non-overlapping wavelength range, various grid sizes can be merged into an uniform format
-   4. Scalability: 
+This is a project modified from Stanford EE 236A Modern Optics project. Optical industry vendors typically developed their internal solvers since multilayer optical films have been extensively used in optical technology [1]. In addition to build a Matlab solver by using impedance method[4] to calculate the reflectivity/emissivity of a multilayer thin-film from s/p-polarized incident light over a range of spectrum and incident angle, the project is aimed to provide following features for researchers who are :     
+- **User-friendly Data Pre-process**: automatically convert the messy csv file downloaded from refractiveinfo website [3] or sources with similar data format(e.g. repeated wavelength, seperated real and imaginary refractive indices in different rows or columns) into a compact two-column wavelength-complex-refractive-index format; merge various range of spectrum and gird size; remove NA, blank data point and duplicate points.   
+- **Flexiblility**: smoothly interpolrate/extrapolate into designated wavelength grid size and range    
+- **Scalability**: assuming enough computing power, the code is alble to handle arbitrary materials, number of layers, and thickness    
+- **Portability**: the code can be conveniently modified and re-distributed into other programming language and platform because most work is conciesely performed and presented in 2-D matrix computation    
+
+## Methodology & Theory
+
+## Example
 ## Discussion and Futher Plan
-This project is useful for 1-D conceptual and numerical validation of multi-layer design. Upon demand for smaller granularity of spatial performance, the method can be extended to 3-D with optimized matrix computation process. The command line user interface can be easily adjusted to  
+This project is useful for 1-D conceptual and numerical validation of multi-layer design. Upon demand for smaller granularity of spatial performance, the method can be extended to 3-D with optimized matrix computation. The command line user interface can be easily adjusted to graphical interface.   
 
 ## Reference
 [1] Shi, Yu, et al. "Optimization of multilayer optical films with a memetic algorithm and mixed integer programming." ACS Photonics 5.3 (2017): 684-691.   
 [2] Kaminski, Piotr M., Fabiana Lisco, and J. M. Walls. "Multilayer broadband antireflective coatings for more efficient thin film CdTe solar cells." IEEE Journal of Photovoltaics 4.1 (2013): 452-456.   
 [3] https://refractiveindex.info/ 
+[4] Haus, H.A., 1984. Waves and fields in optoelectronics. Prentice-Hall,.
