@@ -37,11 +37,11 @@ This is one of the structure in [2].
 
 **Testing Case 2**
 
-<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_1.jpg" alt="Testing case 2 plot 1" width="800"/>
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_1.jpg" alt="Testing case 2 plot 1" width="500"/>
 
-<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_2.jpg" alt="Testing case 2 plot 2" width="800"/>
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_2.jpg" alt="Testing case 2 plot 2" width="500"/>
 
-<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_3.jpg" alt="Testing case 2 plot 3" width="800"/>
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_3.jpg" alt="Testing case 2 plot 3" width="500"/>
 
 
 ## Discussion and Futher Plan
