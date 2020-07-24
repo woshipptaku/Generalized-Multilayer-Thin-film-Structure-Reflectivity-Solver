@@ -29,6 +29,9 @@ This is one of the structure in [2].
 <img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/example2.JPG" alt="Testing case 2" width="500"/>
 
 ## Results
+
+Case 2 results match the result on [2]. However, case 1 results are not fully matched because the author told me that he used different data set rather than [3]. The same material could show significanly different refractive index under vairous measurement condition and crystal structure. 
+
 **Tesing Case 1**
 
 <img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_1_plot_1.jpg" alt="Testing case 1 plot 1" width="800"/>
