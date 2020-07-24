@@ -7,8 +7,43 @@ This is a project modified from Stanford EE 236A Modern Optics project. Optical 
 - **Portability**: the code can be conveniently modified and re-distributed into other programming language and platform because most work is conciesely performed and presented in 2-D matrix computation    
 
 ## Methodology & Theory
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/Multilayer%20Structure%20Diagram.JPG" alt="Multilayer thin-film structure diagram" width="400"/>  
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/Calculation.JPG" alt="Calculation" width="800"/> 
+
+## Usage 
+Download the materials you need from [3] or other sources as cvs format to the same directory of m.file. Then, follow the instruction in the comment of the m.file. 
 
 ## Example
+**The List of Downloaded Database** 
+
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/databaselist.JPG" alt="Databaselist" width="500"/>
+
+**Testing Case 1**
+This is one of the optimized structure in [1]. 
+
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/example.png" alt="Testing case 1" width="500"/>
+
+**Testing Case 2**
+This is one of the structure in [2].
+
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/example2.JPG" alt="Testing case 2" width="500"/>
+
+## Results
+**Tesing Case 1**
+
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_1_plot_1.jpg" alt="Testing case 1 plot 1" width="800"/>
+
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_1_plot_2.jpg" alt="Testing case 1 plot 2" width="800"/>
+
+**Testing Case 2**
+
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_1.jpg" alt="Testing case 2 plot 1" width="800"/>
+
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_2.jpg" alt="Testing case 2 plot 2" width="800"/>
+
+<img src="https://github.com/woshipptaku/Generalized-Multilayer-Thin-film-Structure-Reflectivity-Solver/blob/master/Picture/testing_case_2_plot_3.jpg" alt="Testing case 2 plot 3" width="800"/>
+
+
 ## Discussion and Futher Plan
 This project is useful for 1-D conceptual and numerical validation of multi-layer design. Upon demand for smaller granularity of spatial performance, the method can be extended to 3-D with optimized matrix computation. The command line user interface can be easily adjusted to graphical interface.   
 
